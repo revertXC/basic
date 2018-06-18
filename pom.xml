@@ -10,6 +10,7 @@
   <modules>
     <module>myQueue</module>
       <module>mySynchronized</module>
+      <module>myThreadLocal</module>
   </modules>
   <packaging>pom</packaging>
 

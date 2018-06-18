@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="myThreadLocal:war">
+    <output-path>$PROJECT_DIR$/myThreadLocal/target</output-path>
+    <root id="archive" name="myThreadLocal.war">
+      <element id="artifact" artifact-name="myThreadLocal:war exploded" />
+    </root>
+  </artifact>
+</component>
