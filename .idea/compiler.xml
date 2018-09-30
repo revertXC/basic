@@ -6,13 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="_1thread" />
+        <module name="_2threadPool" />
+        <module name="collectionAndMap" />
+        <module name="myJdk18" />
+        <module name="myNio" />
         <module name="myQueue" />
         <module name="mySynchronized" />
         <module name="myThreadLocal" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="basic" target="1.7" />
+      <module name="_1thread" target="1.7" />
+      <module name="_2threadPool" target="1.7" />
+      <module name="basic" target="1.8" />
+      <module name="collectionAndMap" target="1.8" />
+      <module name="myJdk18" target="1.8" />
+      <module name="myNio" target="1.7" />
       <module name="myQueue" target="1.7" />
       <module name="mySynchronized" target="1.7" />
       <module name="myThreadLocal" target="1.7" />
